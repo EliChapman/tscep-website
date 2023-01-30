@@ -1,0 +1,36 @@
+.page-footer {
+    background-color: #dfdfdf;
+}
+
+.fa {
+    color: #4f4f4f;
+    text-decoration: none;
+}
+
+.social-link {
+    margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 50%;
+    border-width: 3px;
+    border-color: #4f4f4f;
+    width: 42px;
+    height: 42px;
+}
+
+.social-link:hover {
+    background-color: #dfdfdf;
+}
+
+.facebook:hover .fa-facebook {
+    color: #3b5998;
+}
+.facebook:hover {
+    border-color: #3b5998;
+}
+
+.instagram:hover .fa-instagram {
+    color: #fd5949;
+}
+.instagram:hover {
+    border-color: #fd5949;
+}

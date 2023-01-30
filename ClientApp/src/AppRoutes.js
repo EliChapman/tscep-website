@@ -1,4 +1,4 @@
-import { Home } from "./components/Home";
+import Home from "./components/Home";
 import AboutUs from "./components/AboutUs";
 
 const AppRoutes = [
