@@ -66,11 +66,6 @@
     "test": "cross-env CI=true react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "lint": "eslint ./src/",
-    "css-compile": "node-sass --include-path node_modules --output-style compressed --source-map true --source-map-contents true --precision 6 src/scss -o src/assets/css/",
-    "css-lint": "stylelint scss/",
-    "css-prefix": "postcss --replace assets/css/starter.css --use autoprefixer --map",
-    "css-purge": "purgecss --keyframes --css assets/css/starter.css --content index.html \"node_modules/bootstrap/js/dist/{util,modal}.js\" --output src/assets/css/",
-    "css": "npm-run-all css-compile css-prefix",
     "server": "live-server --port=3000",
     "watch": "nodemon -e html,scss -x \"npm run css\""
   },
