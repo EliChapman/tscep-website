@@ -2,7 +2,9 @@ import React, { Component } from 'react';
 import { Route, Routes } from 'react-router-dom';
 import AppRoutes from './AppRoutes';
 import { Layout } from './components/Layout';
-import './custom.css';
+import "./assets/css/starter.css";
+import "./assets/css/starter.css.map";
+// import "./assets/js/starter";
 
 export default class App extends Component {
   static displayName = App.name;
