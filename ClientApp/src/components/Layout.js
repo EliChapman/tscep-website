@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container } from 'reactstrap';
-import Footer from './Footer';
-import NavMenu from './NavMenu';
+import Footer from './Footer/Footer';
+import NavMenu from './NavMenu/NavMenu';
 
 const Layout = (props) => {
   return (

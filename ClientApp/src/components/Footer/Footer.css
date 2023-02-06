@@ -7,6 +7,10 @@
     text-decoration: none;
 }
 
+.fa-instagram::before {
+    margin-left: -.5px;
+}
+
 .social-link {
     margin-right: 10px;
     margin-left: 10px;

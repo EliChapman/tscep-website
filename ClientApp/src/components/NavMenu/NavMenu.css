@@ -24,13 +24,13 @@ html {
 .logo-text {
   font-size: 28px;
 }
-@media (max-width: 300px) {
-  .logo-text {
-    font-size: 16px;
-  }
-}
 @media (max-width: 768px) {
   .logo-text {
     font-size: 20px;
+  }
+}
+@media (max-width: 310px) {
+  .logo-text {
+    font-size: 32px;
   }
 }

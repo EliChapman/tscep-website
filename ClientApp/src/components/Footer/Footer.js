@@ -8,10 +8,10 @@ const Footer = () =>
             <div className="row">
                 <div className="socials">
                     <Button href="https://www.facebook.com/" variant="outline-secondary" className="social-link facebook">
-                        <i class="fa fa-facebook"></i>
+                        <i className="fa fa-facebook"></i>
                     </Button>
                     <Button href="https://www.instagram.com/" variant="outline-secondary" className="social-link instagram">
-                        <i class="fa fa-instagram"></i>
+                        <i className="fa fa-instagram"></i>
                     </Button>
                 </div>
             </div>

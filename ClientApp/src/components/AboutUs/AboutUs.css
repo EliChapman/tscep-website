@@ -1,0 +1,32 @@
+.br {
+    display: block;
+    margin-bottom: .5vh;
+}
+
+.br-med {
+    display: block;
+    margin-bottom: 1.5vh;
+}
+
+.br-big {
+    display: block;
+    margin-bottom: 2.5vh;
+}
+
+.page-header {
+    width: fit-content;
+}
+
+.underline {
+    margin-left: -10%;
+    width: 120%;
+    height: 2px;
+    background-color: gray;
+    margin-bottom: 7.5%;
+}
+
+@media (max-width: 575px) {
+    .page {
+        margin-left: 5%;
+    }
+}
