@@ -1,6 +1,6 @@
 # Topeka Chess Club Website
 
-This website is built with React, Bootstrap, and ASP.NET Core. It is designed to provide a center Chess related information for Topeka residents. 
+This website is built with React, Bootstrap, and ASP.NET Core. It is designed to provide a center for Chess related information for Topeka residents. 
 
 ## Features 
 * Schedule with upoming tournament information
