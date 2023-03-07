@@ -3,7 +3,7 @@ import "./Footer.css";
 import Button from 'react-bootstrap/Button';
 
 const Footer = () =>
-    <footer className="page-footer font-small blue pt-4">
+    <footer className="footer font-small blue pt-4">
         <div className="container-fluid text-center text-md-left">
             <div className="row">
                 <div className="socials">
@@ -17,8 +17,8 @@ const Footer = () =>
             </div>
         </div>
 
-        <div className="footer-copyright text-center py-3">© 2023 Copyright:
-            Topeka Chess Club
+        <div className="footer-copyright text-center py-3">
+            © 2023 Copyright: Topeka Chess Club
         </div>
     </footer>
 

@@ -3,12 +3,12 @@ import "./AboutUs.css";
 
 const AboutUs = () => {
     return(
-        <div className='page'>
-            <div className='page-header'>
+        <div className='aboutUs-container'>
+            <div className='aboutUs-header'>
                 <h1 style={{"marginBottom":"0px"}}>About Us</h1>
-                <div className='underline'></div>
+                <div className='header-underline'></div>
             </div>
-            <div className='page-body'>
+            <div className='aboutUs-page-body'>
                 The <strong>Topeka Chess Club</strong> is a city-wide chess club that seeks
                 to offer oppurtunites in chess to kids all around Topeka.
                 <span className='br-big' />

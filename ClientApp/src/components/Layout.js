@@ -1,15 +1,15 @@
 import React from 'react';
-import { Container } from 'reactstrap';
 import Footer from './Footer/Footer';
 import NavMenu from './NavMenu/NavMenu';
+import { Container } from 'reactstrap';
 
 const Layout = (props) => {
   return (
-    <div>
+    <div id="page">
       <NavMenu />
-      <Container>
-        {props.children}
-      </Container>
+        <Container className='content'>
+          {props.children}
+        </Container>
       <Footer />
     </div>
   );

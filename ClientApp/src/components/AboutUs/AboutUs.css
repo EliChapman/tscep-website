@@ -13,11 +13,11 @@
     margin-bottom: 2.5vh;
 }
 
-.page-header {
+.aboutUs-header {
     width: fit-content;
 }
 
-.underline {
+.header-underline {
     margin-left: -10%;
     width: 120%;
     height: 2px;
@@ -26,7 +26,7 @@
 }
 
 @media (max-width: 575px) {
-    .page {
+    .aboutUs-container {
         margin-left: 5%;
     }
 }
